@@ -1,0 +1,46 @@
+body{
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+h1{
+  font-family: Impact, Charcoal, sans-serif;
+  text-align: center;
+  background-color: gray;
+}
+
+#alice{
+  border: medium dashed green;
+}
+
+#candy-link{
+  margin: 1em;
+  text-align: center;
+}
+
+#fruits-container{
+  text-align: center;
+  border-left: 5px solid #F01150;
+  background-color: #ED87A4;
+}
+
+#fruit-list{
+  float: left;
+  padding-left: 5px;
+}
+
+a{
+  padding: 2px;
+  text-decoration: none;
+  border: 4px outset blue;
+  background-color: lightblue;
+  color: black;
+}
+
+a:hover{
+  background-color: #F0F013;
+}
+
+#video{
+  text-align: center;
+}
