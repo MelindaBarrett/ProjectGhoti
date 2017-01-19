@@ -1,0 +1,55 @@
+So now that you've written some HTML, let's make it look stylish by writing some
+  CSS. CSS works by choosing an HTML element (like <p>) and then changing it's properties.
+  Here are some properties to get you started:
+
+1) text-align: This changes where the content is positioned within its boundary.
+possible values - left, center, right, none
+p {
+  text-align: center;
+}
+
+2) border: Adds a border-line around an element.
+  This property take 3 keywords: color, width, and style.
+p {
+  border: red medium solid
+}
+
+3) background-color: Changes the color behind the element.
+p{
+  background-color: blue;
+}
+
+4) color: Changes the color of text.
+p{
+  color: green;
+}
+
+5) margin: Adds space around the element on all sides.
+  Unlike the others, margin only takes numbers with units. Also, you can add space on
+  one side by using "margin-left" or "margin-top" etc.
+div{
+  margin: 2px;
+}
+OR
+div{
+  margin-top: 5px;
+}
+
+If you have more than one element of the same type (hint: a book chapter with more than
+  one paragraph) you can one of those elements an id in order to make it easier to select.
+  In this example, the first paragraph's text will be blue but the second will be red.
+
+<html>
+<body>
+  <p> Paragraph One </p>
+  <p id="P2"> Paragraph Two </p>
+</body>
+</html>
+
+p {
+  color: blue;
+}
+
+#id {
+  color: red;
+}
